@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+header,footer,nav,p,h1,h2,h3,h4,h5,h6,span,div,ul,ol{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    /* font-family: "Oswald", sans-serif; */
+    /* font-family: "Open Sans", sans-serif; */
+}
+
+header{
+    background-color: #0872b9;
+    padding: 10px 0;
+    
+}
+
+.welcome p{
+    color: white;
+}
+
+.header_icon ul{
+    float: right;
+}
+
+.header_icon ul li{
+    float: left;
+    padding: 0 15px;
+}
+
+.header_icon ul li a{
+    color: white;
+    transition: all linear .3s;
+    
+}
+
+.header_icon ul li a:hover{
+    color: black;
+    transition: all linear .3s;
+}
+
+/* banner part css start */
+
+.banner_main{
+    background-image: url(../images/Beatles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+          
+}
+
+.banner_overlay{
+    padding: 90px 0;
+    background-color:rgba(0,0,0,0.6);
+  
+}
+
+.banner_content{
+    text-align: right;
+}
+
+.banner_content h4{
+    font-size: 30px;
+    font-family: "Oswald", sans-serif; 
+    color: #fff;
+
+}
+
+.banner_content h1{
+    font-size: 40px;
+    font-family: "Oswald", sans-serif; 
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.banner_content p {
+    padding: 25px 0 25px 13%;
+    color: #fff;
+}
+
+.banner_content a{
+    border: 2px solid white;
+    color: #fff;
+    font-family: "Oswald", sans-serif; 
+    padding: 5px 20px;
+    margin-left: 10px;
+    transition: all linear 0.3s;
+}
+
+
+.banner_content a:hover{
+    background-color: #0872b9;
+    border: 2px solid #0872b9 ;
+    transition: all linear 0.3s;
+}
+
+/* banner part css end */
+
+
+.about_us{
+    font-size: 24px;
+    margin-top: 60px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700px;
+    position: relative;
+}
+
+/* after before css part start   */
+
+.about_us::before {
+    height: 2px;
+    width: 3.6%;
+    content: "";
+    background-color: rgb(8, 114, 185);
+    position: absolute;
+    top: 36px;
+    left: 600px;
+}
+
+.about_us::after {
+    height: 2px;
+    width: 0.6%;
+    content: "";
+    background-color: rgb(8, 114, 185);
+    position: absolute;
+    top: 36px;
+    left: 650px;
+}
+
+.about_us span::before {
+    height: 2px;
+    width: 0.3%;
+    content: "";
+    background-color: rgb(8, 114, 185);
+    position: absolute;
+    top: 36px;
+    left: 660px;
+}
+
+.about_us span::after {
+    height: 2px;
+    width: 0.2%;
+    content: "";
+    background-color: rgb(8, 114, 185);
+    position: absolute;
+    top: 36px;
+    left: 664px;
+}
+
+        /* after before css part start   */
+
+.lorem_one{
+    margin-top: 87px;
+}
+
+.lorem_two{
+    margin-top: 37px;
+}
+
+.our_services{
+    font-size: 24px;
+    margin-top: 57px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700px;
+    position: relative;
+}
+
+    /* after befor css part start */
+     
+
+.our_services::before {
+    height: 2px;
+    width: 3.7%;
+    content: "";
+    background-color: rgb(8, 114, 185);
+    position: absolute;
+    top: 36px;
+    left: 581px;
+}
+
+.our_services::after {
+    height: 2px;
+    width: 0.6%;
+    content: "";
+    background-color: rgb(8, 114, 185);
+    position: absolute;
+    top: 36px;
+    left: 632px;
+}
+
+.our_services span::before {
+    height: 2px;
+    width: 0.2%;
+    content: "";
+    background-color: rgb(8, 114, 185);
+    position: absolute;
+    top: 36px;
+    left: 642px;
+}
+
+.our_services span::after {
+    height: 2px;
+    width: 0.1%;
+    content: "";
+    background-color: rgb(8, 114, 185);
+    position: absolute;
+    top: 36px;
+    left: 646px;
+}
+
+        /* after befor css part end */
+
+.graphic_design h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    
+}
+
+.graphic_design p{
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.graphic_design{
+    background-color: #f1f1f1;
+    margin-top: 65px;
+    padding: 50px 20px 22px 20px ;
+    position: relative;
+}
+
+.icon_one{
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: -39px;
+    left: 40%;
+    border: 1px solid #f1f1f1;
+}
+
+.circle_one{
+    height: 70px;
+    width: 70px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    display: flex;
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+    /* top: -39px;
+    left: 40%; */
+    /* border: 1px solid #5bc5f4; */
+
+}
+
+
+.graphic_design:hover .icon_one {
+    border: 1px solid #5bc5f4;
+    transition: all linear .3s;
+}
+
+.graphic_design:hover .circle_one{
+    background-color: #5bc5f4;
+    transition: all linear .3s;
+}
+
+.graphic_design:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+            /* OUR PORTFOLIO CSS START */
+
+.our_portfolio{
+    font-size: 24px;
+    margin-top: 57px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700px;
+    position: relative;
+    margin-bottom: 60px;    
+}
+
+            /* OUR PORTFOLIO CSS END */
+.our_portfolio::before {
+    height: 2px;
+    width: 3.7%;
+    content: "";
+    background-color: rgb(8, 114, 185);
+    top: 36px;
+    left: 575px;
+    position: absolute;
+}
+
+.our_portfolio::after {
+    height: 2px;
+    width: 0.6%;
+    content: "";
+    background-color: rgb(8, 114, 185);
+    position: absolute;
+    top: 36px;
+    left: 626px;
+
+}
+
+.our_portfolio span::before {
+    height: 2px;
+    width: 0.2%;
+    content: "";
+    background-color: rgb(8, 114, 185);
+    position: absolute;
+    top: 36px;
+    left: 637px;
+ 
+}
+
+.our_portfolio span::after {
+    height: 2px;
+    width: 0.1%;
+    content: "";
+    background-color: rgb(8, 114, 185);
+    position: absolute;
+    top: 36px;
+    left: 641px;
+ 
+}
+
+.portfolio_photo{
+    position: relative;
+}
+
+
+.portfolio_overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform:scale(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.portfolio_photo:hover .portfolio_overlay{
+    transform: scale(1);
+    transition: all linear 0.3s;
+}
+
+.ourteam{
+    margin-top: 60px;
+}
+
+.team_photo{
+    position: relative;
+}
+
+.team_photo_overlay{
+    height: 100%;
+    width:30%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(0); 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} 
+    
+
+.team_photo:hover .team_photo_overlay{
+    transform: scale(1);
+    transition: all linear 0.3s;
+
+}
+
+.team_list{
+    padding: 10px 20px;
+
+}
+
+.team_list li a i{
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.team_photo_overlay ul li a i {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid white;
+}
+
+.team_photo_overlay ul li a i:hover{
+    background-color: #5bc5f4;
+    border: 1px solid #5bc5f4;
+    transition: all linear 0.3s;
+} 
+
+.name{
+    margin-top: 11px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    
+}
+
+.name:hover{
+    color: #5bc5f4;
+}
+
+.team_title{
+    margin-top: 10px;
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    color: #555555;
+
+}
+
+.testimonial::before{
+    left: 589px;
+
+}
+.testimonial::after{
+    left: 640px;
+}
+.testimonial span::before{
+    left: 650px;
+}
+.testimonial span::after{
+    left: 655px;
+}
+
+
+
+.testimonial_photo{
+    margin-top: 30px;
+}
+
+
+.text_icon{
+    display: flex;
+    color: #5bc5f4;
+    margin-left: 42.5%;
+      
+}
+
+.text_desig{
+    font-family: "Oswald", sans-serif;
+    font-size: 13px;
+}
+
+.text_testi{
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+}
+
+.text_content{
+    padding: 15px;
+    background-color: #f1f1f1;
+    margin-top: 35px;
+    position: relative;
+    margin-bottom: 15px;
+
+}
+     /* position: absolute; */
+    
+
+
+.text_triangle{
+    height: 40px;
+    width: 40px;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: -19px;
+    left: 298px;
+    transform: rotate(45deg);
+    z-index: -1;
+} 
+
+footer{
+    background-color: #353535;
+    margin-top: 20px;
+    padding-top: 20px;
+    
+}
+
+.footer_content p{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+
+
+}
+
+.footer_content p:first-child{
+    padding: 30px 0;
+}
+
+.footer_common_heading h4{
+    color: white;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif; 
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 40px;
+
+}
+
+.footer_icon a{
+    height: 40px;
+    width: 40px;
+    background-color: #5bc5f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    margin-top: 2px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+
+.footer_number p{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+}
+
+
+
+
+.footer_menu a{
+    color: white;
+   
+}
+
+
+.footer_photo img{
+    margin-bottom: 20px;
+}
+
+
+
+.footer_menu_link a{
+    color: white;
+    line-height: 36px;
+       
+}
+
+.footer_menu_link a:hover{
+    color: #5bc5f4;
+}
+
+
+.copy_right{
+    background-color: #555555;
+    color: white;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif; 
+    text-align: center;
+    padding: 15px 0;
+}
+
+.copy_right span{
+    color: #5bc5f4;
+}

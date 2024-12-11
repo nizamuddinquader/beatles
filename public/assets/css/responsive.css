@@ -1,0 +1,221 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+@media (min-width:320px) and (max-width:575px){
+   
+.welcome p{
+    text-align:center;
+    font-size: 11px;
+}
+
+
+.header_icon ul li {
+   padding: 0px 9px;
+}
+
+.banner_content p{
+    margin-top: 15px;
+}
+
+.icon_one {
+    left: 37%;    
+}
+
+.portfolio_photo {
+    margin-bottom: 10px;
+}
+
+.photo_3 img {
+    margin-top: 10px;
+}
+
+.photo_4 {
+    margin-top: 10px;
+}
+
+.text_triangle {
+    top: -14px;
+    left: 130px;
+}
+
+
+.team_title{
+    margin: 0 0 20px;
+}
+
+.text_icon {
+    margin-left: 34.5%;
+}
+
+.about_us::before {
+    left: 145px;
+}
+
+.about_us::after {
+    left: 165px;
+}
+
+.about_us span::before {
+    left: 170px;
+ }
+ 
+ .about_us span::after {
+     left: 175px;
+ }
+
+
+.our_services::before {
+  left: 145px;
+}
+
+.our_services::after {
+   left: 165px;
+}
+
+.our_services span::before {
+   left: 170px;
+}
+
+.our_services span::after {
+    left: 175px;
+}
+
+.our_portfolio::before {
+    left: 145px;
+}
+
+.our_portfolio::after {
+    left: 165px;
+}
+
+.our_portfolio span::before {
+    left: 170px;
+}
+ 
+ .our_portfolio span::after {
+     left: 175px;
+}
+
+.text_testi {
+  
+    font-size: 10px;
+}
+
+.footer_common_heading {
+    margin-top: 10px;
+}
+
+.footer_logo,
+.footer_content,
+.footer_common_heading {
+    text-align: center;
+}
+
+.footer_content p:first-child {
+    padding: 20px 0;
+}
+
+.phone_number p {
+    margin-top: 4px;
+}
+
+.footer_menu_link {
+    text-align: center;
+    
+}
+
+.icon_one {
+    left: 38%;
+}
+
+}
+ 
+    
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){
+    .about_us::before {
+       left: 210px;
+    }
+
+    .about_us::after {
+       left: 235px;
+    }
+
+    .about_us span::before {
+       left: 242px;
+    }
+
+    .about_us span::after {
+       left: 248px;
+    }
+
+    .our_services::before {
+       left: 192px;
+    }
+
+    .our_services::after {
+        left: 215px;
+    }
+
+     .our_services span::before {
+        left: 223px;
+    }
+
+     .our_services span::after {
+        left: 229px;
+    }
+
+    .icon_one {
+        left: 42%;
+    
+    } 
+
+    .our_portfolio::before {
+       left: 185px;
+       
+    }
+
+    .our_portfolio::after {
+        left: 208px;
+        
+     }
+
+    .our_portfolio span::before {
+       left: 216px;
+    }
+
+    
+    .our_portfolio span::after {
+        left: 222px;
+    }
+
+    .iamge_bottom{
+        margin-bottom: 25px;
+    }
+
+    .team_title {
+        margin: 0 0 20px;
+    }
+
+    .text_triangle {
+        left: 239px;
+   
+    }
+
+    .text_icon {
+        margin-left: 41.5%;
+    }
+
+    .footer_common_heading h4{
+        margin-top: 15px;
+        font-size: 22px;
+      
+    }
+
+ 
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
