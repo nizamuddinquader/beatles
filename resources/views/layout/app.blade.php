@@ -63,7 +63,7 @@
                 <a class="nav-link" href="{{ route('about')}}">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Gallary</a>
+                <a class="nav-link" href="{{ route('gallery') }}">Gallary</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Testimonial</a>
@@ -72,7 +72,7 @@
                 <a class="nav-link" href="#">Blogs</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contct us</a>
+                <a class="nav-link" href="#">Contact us</a>
               </li>
           </div>
         </div>
